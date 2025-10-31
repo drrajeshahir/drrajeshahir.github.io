@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name — Portfolio</title>
+  <meta name="description" content="Personal/Research portfolio. Edit to customise." />
+  <link rel="icon" href="assets/favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <div class="inner">
+        <div class="brand">
+          <img src="assets/avatar.svg" alt="avatar" class="avatar" />
+          <div>
+            <h1>Your Name</h1>
+            <p class="tagline">Researcher • Data Scientist • Engineer</p>
+          </div>
+        </div>
+
+        <nav class="nav" id="nav">
+          <a href="#about">About</a>
+          <a href="#research">Research</a>
+          <a href="#publications">Publications</a>
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a class="cv" href="assets/CV.pdf" download>Download CV</a>
+          <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">🌓</button>
+        </nav>
+
+        <button class="menu-btn" id="menu-btn" aria-label="Open menu">☰</button>
+      </div>
+    </header>
+
+    <main class="container">
+      <section id="hero" class="hero">
+        <div class="hero-inner">
+          <h2>Hello — I'm <span class="accent">Your Name</span></h2>
+          <p class="lead">I work on machine learning for sustainable energy systems, time-series analysis, and open-source tools. Edit this text to describe yourself.</p>
+          <p class="hero-cta">
+            <a href="#contact" class="btn">Get in touch</a>
+            <a href="assets/CV.pdf" class="btn ghost" download>Download CV</a>
+          </p>
+        </div>
+      </section>
+
+      <section id="about" class="card">
+        <h3>About</h3>
+        <p>Short bio — include your position, affiliation, and a sentence about your research interests or what you build. Example: I'm a postdoctoral researcher working on AI for energy systems and optimization.</p>
+      </section>
+
+      <section id="research" class="card grid-2">
+        <div>
+          <h3>Research Interests</h3>
+          <ul>
+            <li>Time-series analysis & forecasting</li>
+            <li>Optimization for EV charging</li>
+            <li>Interpretable ML and explainability</li>
+            <li>Open-source tools for reproducible research</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Selected Projects</h3>
+          <article class="project">
+            <h4>OpenGreen-AI</h4>
+            <p>Open-source framework for sustainable energy decision-making. <a href="#">Learn more →</a></p>
+          </article>
+          <article class="project">
+            <h4>Time-seriesClustering</h4>
+            <p>Clustering pipeline and analysis for electricity consumption patterns. <a href="#">Repo →</a></p>
+          </article>
+        </div>
+      </section>
+
+      <section id="publications" class="card">
+        <h3>Publications</h3>
+        <ol class="pub-list">
+          <li><strong>2025</strong> — Title of paper. Journal / Conference. <a href="#">PDF</a></li>
+          <li><strong>2024</strong> — Another paper. <a href="#">PDF</a></li>
+        </ol>
+      </section>
+
+      <section id="news" class="card">
+        <h3>News</h3>
+        <ul class="news-list">
+          <li><strong>Oct 2025</strong> — Launched new website.</li>
+          <li><strong>Jul 2025</strong> — Paper accepted at XYZ conference.</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="card">
+        <h3>Contact</h3>
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p>Or find me on:
+          <a href="#" aria-label="Twitter">Twitter</a> ·
+          <a href="#" aria-label="GitHub">GitHub</a> ·
+          <a href="#" aria-label="ORCID">ORCID</a>
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="inner">
+        <p>© 2025 Your Name — Built with ♥. Hosted on GitHub Pages.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
